@@ -288,6 +288,7 @@ th {
         border-top-color: #000 !important
     }
     .label {
+        width: 100%;
         border: 1px solid #000
     }
     .table {
@@ -1437,7 +1438,9 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .img-rounded {
@@ -7682,7 +7685,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
